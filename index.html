@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Circuit Court</title>
+    <!-- Replace the favicon with a shopping trolley icon -->
+    <link rel="icon" type="image/png" href="/CircuitCourt/assets/favicon-shopping-trolley-Do1mpzs4-1755160128695.png" />
+    <style>
+      /* Initial loading screen styles */
+      .initial-loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: 
+          linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.05) 100%),
+          url('/CircuitCourt/assets/farmers-market-bg-CrYgHiIK-1755160128695.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        z-index: 99999;
+      }
+      .initial-loading::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.05);
+        z-index: 1;
+      }
+      .initial-loading-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 40px 60px;
+        border-radius: 16px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(139, 168, 76, 0.2);
+        box-shadow: 0 8px 32px rgba(76, 132, 73, 0.15);
+        position: relative;
+        z-index: 2;
+        text-align: center;
+      }
+      .shopping-trolley {
+        font-size: 64px;
+        margin-bottom: 20px;
+      }
+      .app-title {
+        font-size: 36px;
+        font-weight: bold;
+        color: #2d4a2b;
+        margin-bottom: 20px;
+      }
+      .loading-text {
+        font-size: 18px;
+        color: #4c8449;
+        margin-bottom: 20px;
+      }
+      .loading-dots {
+        display: flex;
+        gap: 8px;
+      }
+      .dot {
+        width: 12px;
+        height: 12px;
+        background: #4c8449;
+        border-radius: 50%;
+        animation: dotPulse 1.4s infinite ease-in-out both;
+      }
+      .dot:nth-child(1) { animation-delay: -0.32s; }
+      .dot:nth-child(2) { animation-delay: -0.16s; }
+      .dot:nth-child(3) { animation-delay: 0s; }
+      @keyframes dotPulse {
+        0%, 80%, 100% {
+          transform: scale(0.6);
+          opacity: 0.5;
+        }
+        40% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      /* Mobile optimization */
+      @media (max-width: 768px) {
+        .initial-loading {
+          background-attachment: scroll;
+        }
+        .initial-loading-content {
+          padding: 30px 40px;
+          margin: 20px;
+        }
+        .shopping-trolley {
+          font-size: 48px;
+        }
+        .app-title {
+          font-size: 28px;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/CircuitCourt/assets/index-mI8M7mS4-1755160128695.js"></script>
+    <link rel="modulepreload" crossorigin href="/CircuitCourt/assets/vue-vendor-CepiGV3k-1755160128695.js">
+    <link rel="stylesheet" crossorigin href="/CircuitCourt/assets/index-DR31mj5j-1755160128695.css">
+  <link rel="manifest" href="/CircuitCourt/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/CircuitCourt/registerSW.js"></script></head>
+  <body>
+    <div id="app">
+      <!-- Initial loading screen shown until Vue app mounts -->
+      <div class="initial-loading">
+        <div class="initial-loading-content">
+          <div class="shopping-trolley">🛒</div>
+          <div class="app-title">CircuitCourt</div>
+          <div class="loading-text" id="loading-text">Chargement...</div>
+          <div class="loading-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Localize loading text based on user's language preference
+      (function() {
+        console.log('[LoadingScreen] Script started');
+        
+        function updateLoadingText() {
+          try {
+            const isLogoutInProgress = localStorage.getItem('circuitcourt_logout_in_progress') === 'true';
+            console.log('[LoadingScreen] Logout in progress:', isLogoutInProgress);
+            console.log('[LoadingScreen] All localStorage keys:', Object.keys(localStorage));
+            
+            // Get the user's selected language from localStorage
+            const selectedLanguage = localStorage.getItem('selectedLanguage');
+            console.log('[LoadingScreen] Raw selectedLanguage value:', selectedLanguage);
+            const language = selectedLanguage || 'fr';
+            console.log('[LoadingScreen] Using language:', language);
+            
+            // Loading messages for different languages
+            const loadingMessages = {
+              'en': 'Loading...',
+              'fr': 'Chargement...',
+              'ty': 'E tatari nei...',
+              'es': 'Cargando...',
+              'de': 'Lädt...',
+              'zh': '加载中...',
+              'ja': '読み込み中...',
+              'ru': 'Загрузка...',
+              'ar': 'جاري التحميل...',
+              'pt': 'Carregando...',
+              'id': 'Memuat...'
+            };
+            
+            // Logout loading messages for different languages
+            const logoutMessages = {
+              'en': 'Logging out...',
+              'fr': 'Déconnexion en cours...',
+              'ty': 'E haere atu nei...',
+              'es': 'Cerrando sesión...',
+              'de': 'Wird abgemeldet...',
+              'zh': '正在登出...',
+              'ja': 'ログアウト中...',
+              'ru': 'Выход из системы...',
+              'ar': 'جاري تسجيل الخروج...',
+              'pt': 'Desconectando...',
+              'id': 'Sedang keluar...'
+            };
+            
+            const loadingTextElement = document.getElementById('loading-text');
+            console.log('[LoadingScreen] Loading text element found:', !!loadingTextElement);
+            
+            if (loadingTextElement) {
+              let message;
+              if (isLogoutInProgress) {
+                message = logoutMessages[language] || logoutMessages['fr'];
+                console.log('[LoadingScreen] Setting logout message:', message, 'for language:', language);
+                // Clear the logout flag after using it
+                localStorage.removeItem('circuitcourt_logout_in_progress');
+                console.log('[LoadingScreen] Logout flag cleared');
+              } else {
+                message = loadingMessages[language] || loadingMessages['fr'];
+                console.log('[LoadingScreen] Setting regular loading message:', message, 'for language:', language);
+              }
+              
+              loadingTextElement.textContent = message;
+              console.log('[LoadingScreen] Element text after update:', loadingTextElement.textContent);
+            }
+          } catch (error) {
+            console.warn('[LoadingScreen] Failed to update loading text:', error);
+          }
+        }
+        
+        // Run immediately
+        updateLoadingText();
+        
+        // Also run when DOM is ready (in case the element isn't available yet)
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', updateLoadingText);
+        }
+      })();
+    </script>
+  </body>
+</html>
