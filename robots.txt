@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chalky66.github.io/CircuitCourt/sitemap.xml
