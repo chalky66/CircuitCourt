@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Duck</title><desc id="desc">A cheerful, recognisable duck cartoon character with two five-fingered hands.</desc>
+  <metadata>circuitcourt-product:duck_breast; artwork-version:2; legacy-assets:untouched</metadata>
+  <defs><radialGradient id="duckBody" cx="30%" cy="20%" r="85%"><stop stop-color="#b98059"/><stop offset=".55" stop-color="#86523b"/><stop offset="1" stop-color="#5b342a"/></radialGradient><radialGradient id="duckHead" cx="30%" cy="20%" r="85%"><stop stop-color="#61977b"/><stop offset=".55" stop-color="#326a59"/><stop offset="1" stop-color="#214a42"/></radialGradient><linearGradient id="bill" x2="0" y2="1"><stop stop-color="#ffc65b"/><stop offset="1" stop-color="#e99128"/></linearGradient></defs>
+  <rect width="512" height="512" fill="#fff"/>
+  <ellipse cx="256" cy="455" rx="151" ry="17" fill="#29362d" opacity=".12"/>
+  <g data-layer="back"><path d="M346 248 Q413 209 420 238 Q397 270 358 279Z" fill="#73503d" stroke="#493026" stroke-width="6"/></g>
+  <g data-layer="legs">
+    <path d="M213 348 Q205 390 194 426 M299 348 Q307 390 318 426" fill="none" stroke="#493026" stroke-width="14" stroke-linecap="round"/>
+    <path d="M213 348 Q205 390 194 426 M299 348 Q307 390 318 426" fill="none" stroke="#e99a2f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M194 418 L174 437 L194 434 L203 445 L211 432 L225 433 L207 417Z M318 418 L287 433 L301 433 L309 445 L318 434 L338 437 L318 418Z" fill="#f2a53b" stroke="#493026" stroke-width="4" stroke-linejoin="round"/></g>
+  <g data-layer="arms"><path d="M153 277 Q111 295 72 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M153 277 Q111 295 72 328" fill="none" stroke="#9b6749" stroke-width="8" stroke-linecap="round"/><path d="M359 277 Q401 295 440 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M359 277 Q401 295 440 328" fill="none" stroke="#9b6749" stroke-width="8" stroke-linecap="round"/></g>
+  <g data-layer="product"><path d="M151 283 C151 219 193 189 256 189 C323 189 365 228 365 292 C365 351 324 383 256 383 C188 383 151 346 151 283Z" fill="url(#duckBody)" stroke="#493026" stroke-width="7"/>
+      <path d="M166 258 Q120 258 132 307 Q153 331 181 305 M346 258 Q392 258 380 307 Q359 331 331 305" fill="#a46d4e" stroke="#493026" stroke-width="6"/>
+      <path d="M187 185 Q256 216 325 185 L320 218 Q256 245 192 218Z" fill="#f3e7c9" stroke="#493026" stroke-width="5"/>
+      <path d="M256 99 C314 99 342 137 330 193 C323 228 293 245 256 245 C219 245 189 228 182 193 C170 137 198 99 256 99Z" fill="url(#duckHead)" stroke="#293e32" stroke-width="7"/></g>
+  <g data-layer="product-details"><path d="M172 286 Q193 272 213 286 M299 286 Q319 272 339 286 M182 317 Q256 343 330 317" fill="none" stroke="#d1a071" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+      <path d="M198 143 Q208 121 230 115" fill="none" stroke="#a8d2aa" stroke-width="8" stroke-linecap="round" opacity=".35"/>
+      <path d="M192 201 Q256 169 320 201 Q315 241 256 241 Q197 241 192 201Z" fill="url(#bill)" stroke="#895021" stroke-width="5"/>
+      <path d="M202 214 Q256 224 310 214" fill="none" stroke="#9a5b24" stroke-width="3.5" stroke-linecap="round"/>
+      <ellipse cx="222" cy="197" rx="5" ry="3" fill="#a66a29"/><ellipse cx="290" cy="197" rx="5" ry="3" fill="#a66a29"/></g>
+
+  <g data-feature="animal-eyes">
+    <ellipse cx="221.8" cy="163" rx="22.5" ry="27.900000000000002" fill="#fff" stroke="#493026" stroke-width="4.5"/>
+    <ellipse cx="290.2" cy="163" rx="22.5" ry="27.900000000000002" fill="#fff" stroke="#493026" stroke-width="4.5"/>
+    <ellipse cx="225.4" cy="166.6" rx="9.9" ry="13.5" fill="#29211e"/>
+    <ellipse cx="293.8" cy="166.6" rx="9.9" ry="13.5" fill="#29211e"/>
+    <circle cx="229" cy="161.2" r="3.6" fill="white"/>
+    <circle cx="297.4" cy="161.2" r="3.6" fill="white"/>
+  </g>
+
+  <g data-layer="hands"><g data-hand="left" data-digit-count="5" transform="translate(61 302) rotate(-18) scale(0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g><g data-hand="right" data-digit-count="5" transform="translate(451 302) rotate(18) scale(-0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g></g>
+</svg>

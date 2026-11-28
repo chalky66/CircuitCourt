@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Turkey</title><desc id="desc">A cheerful, recognisable turkey cartoon character with two five-fingered hands.</desc>
+  <metadata>circuitcourt-product:turkey; artwork-version:2; legacy-assets:untouched</metadata>
+  <defs><radialGradient id="turkey" cx="32%" cy="22%" r="85%"><stop stop-color="#b77b52"/><stop offset=".55" stop-color="#815037"/><stop offset="1" stop-color="#4d3026"/></radialGradient><linearGradient id="fan" x2="0" y2="1"><stop stop-color="#d69a52"/><stop offset="1" stop-color="#824528"/></linearGradient></defs>
+  <rect width="512" height="512" fill="#fff"/>
+  <ellipse cx="256" cy="455" rx="151" ry="17" fill="#29362d" opacity=".12"/>
+  <g data-layer="back"><g fill="url(#fan)" stroke="#593324" stroke-width="6">
+      <path d="M239 261 Q140 258 99 189 Q75 140 104 111 Q142 96 169 137 Q199 181 239 261Z"/>
+      <path d="M247 250 Q161 199 153 116 Q151 68 187 57 Q226 60 235 105 Q244 161 247 250Z"/>
+      <path d="M256 246 Q218 153 256 67 Q294 153 256 246Z"/>
+      <path d="M265 250 Q351 199 359 116 Q361 68 325 57 Q286 60 277 105 Q268 161 265 250Z"/>
+      <path d="M273 261 Q372 258 413 189 Q437 140 408 111 Q370 96 343 137 Q313 181 273 261Z"/>
+      </g>
+      <g fill="#f0c16c" stroke="#6d3e29" stroke-width="4"><ellipse cx="117" cy="137" rx="14" ry="21" transform="rotate(-38 117 137)"/><ellipse cx="187" cy="88" rx="14" ry="21" transform="rotate(-15 187 88)"/><ellipse cx="256" cy="91" rx="14" ry="21"/><ellipse cx="325" cy="88" rx="14" ry="21" transform="rotate(15 325 88)"/><ellipse cx="395" cy="137" rx="14" ry="21" transform="rotate(38 395 137)"/></g>
+      <g fill="none" stroke="#edc77e" stroke-width="5" opacity=".6"><path d="M127 164 L226 256"/><path d="M190 111 L244 242"/><path d="M256 118 L256 230"/><path d="M322 111 L268 242"/><path d="M385 164 L286 256"/></g></g>
+  <g data-layer="legs">
+    <path d="M213 356 Q205 390 194 426 M299 356 Q307 390 318 426" fill="none" stroke="#493026" stroke-width="14" stroke-linecap="round"/>
+    <path d="M213 356 Q205 390 194 426 M299 356 Q307 390 318 426" fill="none" stroke="#e99a2f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M194 418 L174 437 L194 434 L203 445 L211 432 L225 433 L207 417Z M318 418 L287 433 L301 433 L309 445 L318 434 L338 437 L318 418Z" fill="#f2a53b" stroke="#493026" stroke-width="4" stroke-linejoin="round"/></g>
+  <g data-layer="arms"><path d="M153 277 Q111 295 72 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M153 277 Q111 295 72 328" fill="none" stroke="#986345" stroke-width="8" stroke-linecap="round"/><path d="M359 277 Q401 295 440 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M359 277 Q401 295 440 328" fill="none" stroke="#986345" stroke-width="8" stroke-linecap="round"/></g>
+  <g data-layer="product"><path d="M151 283 C151 214 194 183 256 183 C318 183 361 214 361 283 C361 352 322 390 256 390 C190 390 151 352 151 283Z" fill="url(#turkey)" stroke="#493026" stroke-width="7"/>
+      <path d="M165 257 Q121 252 130 302 Q149 334 184 306 M347 257 Q391 252 382 302 Q363 334 328 306" fill="#986345" stroke="#493026" stroke-width="6"/>
+      <path d="M227 238 Q211 193 230 162 Q256 135 282 162 Q301 193 285 238Z" fill="#668a83" stroke="#364e48" stroke-width="6"/>
+      <path d="M241 163 Q228 136 246 121 Q268 112 278 135 Q286 154 270 171Z" fill="#71938a" stroke="#364e48" stroke-width="5"/></g>
+  <g data-layer="product-details"><path d="M177 297 Q201 281 221 297 M291 297 Q311 281 335 297 M187 334 Q256 361 325 334" fill="none" stroke="#d0a071" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+      <path d="M259 175 Q302 171 321 189 Q301 213 262 206Z" fill="#e9aa3d" stroke="#835224" stroke-width="5"/>
+      <path d="M273 207 Q297 219 282 260 Q259 248 266 211Z" fill="#c64e47" stroke="#7e3434" stroke-width="4"/>
+      <path d="M238 167 Q226 191 234 209" fill="none" stroke="#c64e47" stroke-width="8" stroke-linecap="round"/></g>
+
+  <g data-feature="animal-eyes">
+    <ellipse cx="228.3" cy="153" rx="16.25" ry="20.150000000000002" fill="#fff" stroke="#493026" stroke-width="3.25"/>
+    <ellipse cx="277.7" cy="153" rx="16.25" ry="20.150000000000002" fill="#fff" stroke="#493026" stroke-width="3.25"/>
+    <ellipse cx="230.9" cy="155.6" rx="7.15" ry="9.75" fill="#29211e"/>
+    <ellipse cx="280.3" cy="155.6" rx="7.15" ry="9.75" fill="#29211e"/>
+    <circle cx="233.5" cy="151.7" r="2.6" fill="white"/>
+    <circle cx="282.9" cy="151.7" r="2.6" fill="white"/>
+  </g>
+
+  <g data-layer="hands"><g data-hand="left" data-digit-count="5" transform="translate(61 302) rotate(-18) scale(0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g><g data-hand="right" data-digit-count="5" transform="translate(451 302) rotate(18) scale(-0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g></g>
+</svg>

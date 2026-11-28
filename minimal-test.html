@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CircuitCourt diagnostics</title>
+  <style>
+    body { margin: 0; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f6f4ec; color: #25352a; }
+    main { max-width: 640px; margin: 0 auto; }
+    .card { background: #fffdf7; border: 1px solid #e2e0d4; border-radius: 16px; padding: 20px; margin: 14px 0; }
+    h1 { font-size: 28px; margin: 0 0 6px; }
+    p { line-height: 1.5; }
+    ul { margin: 8px 0 0; padding-left: 20px; }
+    li { margin: 6px 0; }
+    code { background: #eef1e6; border-radius: 4px; padding: 1px 5px; }
+    .ok { color: #1f6b3d; font-weight: 700; }
+    .bad { color: #8c3f35; font-weight: 700; }
+    a.button { display: inline-block; margin-top: 12px; padding: 10px 16px; border-radius: 999px; background: #31523b; color: #fff; font-weight: 700; text-decoration: none; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>CircuitCourt diagnostics</h1>
+  <p>This page checks the static shell without loading the application bundle.</p>
+
+  <div class="card">
+    <h2>Browser</h2>
+    <ul id="browser-checks"></ul>
+  </div>
+
+  <div class="card">
+    <h2>Static files</h2>
+    <ul id="file-checks"></ul>
+    <a class="button" href="./index.html">Back to CircuitCourt</a>
+  </div>
+</main>
+<script>
+  const browserChecks = document.getElementById('browser-checks');
+  const fileChecks = document.getElementById('file-checks');
+
+  function row(label, value, ok) {
+    const li = document.createElement('li');
+    li.innerHTML = `${label}: <span class="${ok ? 'ok' : 'bad'}">${value}</span>`;
+    return li;
+  }
+
+  browserChecks.append(
+    row('Online', String(navigator.onLine), navigator.onLine),
+    row('Service worker', 'serviceWorker' in navigator ? 'supported' : 'not supported', 'serviceWorker' in navigator),
+    row('Cache API', 'caches' in window ? 'supported' : 'not supported', 'caches' in window)
+  );
+
+  const files = ['index.html', 'src/version.json', 'manifest.webmanifest'];
+  files.forEach((file) => {
+    fetch(file, { cache: 'no-store' })
+      .then((response) => {
+        fileChecks.append(row(file, response.ok ? `HTTP ${response.status}` : `HTTP ${response.status}`, response.ok));
+      })
+      .catch((error) => {
+        fileChecks.append(row(file, `failed: ${error.message}`, false));
+      });
+  });
+</script>
+</body>
+</html>

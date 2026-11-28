@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Pumpkin</title><desc id="desc">A cheerful, recognisable pumpkin cartoon character with two five-fingered hands.</desc>
+  <metadata>circuitcourt-product:pumpkin; artwork-version:2; legacy-assets:untouched</metadata>
+  <defs><radialGradient id="pumpkin" cx="33%" cy="22%" r="83%"><stop stop-color="#ffc15c"/><stop offset=".5" stop-color="#ee8a28"/><stop offset="1" stop-color="#b95118"/></radialGradient><linearGradient id="stem" x2="1" y2="1"><stop stop-color="#829054"/><stop offset="1" stop-color="#475f32"/></linearGradient></defs>
+  <rect width="512" height="512" fill="#fff"/>
+  <ellipse cx="256" cy="455" rx="151" ry="17" fill="#29362d" opacity=".12"/>
+  <g data-layer="back"></g>
+  <g data-layer="legs">
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#f4c99c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M191 413 C170 416 162 435 176 442 C194 449 218 441 221 429 C216 417 205 413 191 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M321 413 C342 416 350 435 336 442 C318 449 294 441 291 429 C296 417 307 413 321 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M175 429 Q193 421 211 429 M301 429 Q319 421 337 429" fill="none" stroke="#b78358" stroke-width="3" stroke-linecap="round"/></g>
+  <g data-layer="arms"><path d="M153 277 Q111 295 72 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M153 277 Q111 295 72 328" fill="none" stroke="#e8993f" stroke-width="8" stroke-linecap="round"/><path d="M359 277 Q401 295 440 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M359 277 Q401 295 440 328" fill="none" stroke="#e8993f" stroke-width="8" stroke-linecap="round"/></g>
+  <g data-layer="product"><path d="M251 150 C302 130 353 162 366 203 C406 219 407 293 379 329 C356 371 307 390 256 385 C205 390 156 371 133 329 C105 293 106 219 146 203 C159 162 210 130 251 150Z" fill="url(#pumpkin)" stroke="#793c1d" stroke-width="7"/>
+      <path d="M205 158 C163 198 163 327 211 374 M307 158 C349 198 349 327 301 374 M256 151 C226 190 226 346 256 384 C286 346 286 190 256 151Z" fill="none" stroke="#bd5a1d" stroke-width="6" opacity=".72"/>
+      <path d="M155 198 Q126 248 146 303 M357 198 Q386 248 366 303" fill="none" stroke="#ffbd59" stroke-width="6" opacity=".35" stroke-linecap="round"/></g>
+  <g data-layer="product-details"><path d="M247 154 Q239 123 250 92 L279 82 Q288 116 273 153Z" fill="url(#stem)" stroke="#425331" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M277 101 Q326 72 337 103 Q305 97 301 125 Q344 111 354 139" fill="none" stroke="#5e813d" stroke-width="6" stroke-linecap="round"/>
+      <path d="M175 190 Q194 170 214 170" fill="none" stroke="#ffe09a" stroke-width="10" stroke-linecap="round" opacity=".46"/></g>
+  <g data-feature="face">
+    <ellipse cx="206.07999999999998" cy="302.52" rx="22.880000000000003" ry="11.440000000000001" fill="#ed7d79" opacity=".27"/>
+    <ellipse cx="305.92" cy="302.52" rx="22.880000000000003" ry="11.440000000000001" fill="#ed7d79" opacity=".27"/>
+    <path d="M200.88 199.56 Q218.56 190.2 234.16 200.6 M277.84 200.6 Q293.44 190.2 311.12 199.56" fill="none" stroke="#493026" stroke-width="4.16" stroke-linecap="round"/>
+    <ellipse cx="218.56" cy="244.28" rx="24.96" ry="30.16" fill="#fffdf8" stroke="#493026" stroke-width="5.2"/>
+    <ellipse cx="293.44" cy="244.28" rx="24.96" ry="30.16" fill="#fffdf8" stroke="#493026" stroke-width="5.2"/>
+    <ellipse cx="222.72" cy="248.44" rx="11.440000000000001" ry="14.56" fill="#2b211e"/>
+    <ellipse cx="297.6" cy="248.44" rx="11.440000000000001" ry="14.56" fill="#2b211e"/>
+    <circle cx="226.88" cy="242.2" r="4.16" fill="white"/>
+    <circle cx="301.76" cy="242.2" r="4.16" fill="white"/>
+    <path d="M215.44 289 Q256 337.88 296.56 289 Q256 306.68 215.44 289Z" fill="#572d2a" stroke="#493026" stroke-width="4.16" stroke-linejoin="round"/>
+      <path d="M230 294.2 Q256 303.56 282 294.2 L276.8 304.6 Q256 309.8 235.2 304.6Z" fill="white"/>
+      <path d="M237.28 320.2 Q256 309.8 275.76 319.16 Q256 331.64 237.28 320.2Z" fill="#e77c7b"/>
+  </g>
+
+  <g data-layer="hands"><g data-hand="left" data-digit-count="5" transform="translate(61 302) rotate(-18) scale(0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g><g data-hand="right" data-digit-count="5" transform="translate(451 302) rotate(18) scale(-0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g></g>
+</svg>

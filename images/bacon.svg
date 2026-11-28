@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Bacon</title><desc id="desc">A cheerful, recognisable bacon cartoon character with two five-fingered hands.</desc>
+  <metadata>circuitcourt-product:bacon; artwork-version:2; legacy-assets:untouched</metadata>
+  <defs><linearGradient id="bacon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f49a8f"/><stop offset=".5" stop-color="#d66063"/><stop offset="1" stop-color="#a33c4b"/></linearGradient></defs>
+  <rect width="512" height="512" fill="#fff"/>
+  <ellipse cx="256" cy="455" rx="151" ry="17" fill="#29362d" opacity=".12"/>
+  <g data-layer="back"><path d="M183 110 Q222 127 260 109 Q300 91 337 115 L363 353 Q327 374 291 354 Q253 334 215 357 Q183 374 153 355Z" fill="#ba4e57" stroke="#762e3b" stroke-width="7" transform="rotate(12 256 256)"/>
+      <path d="M180 155 Q221 174 263 153 Q302 134 341 157 M171 237 Q215 258 264 235 Q309 214 351 239 M163 319 Q207 340 253 320 Q305 297 358 322" fill="none" stroke="#f3c1ac" stroke-width="17" stroke-linecap="round" transform="rotate(12 256 256)"/></g>
+  <g data-layer="legs">
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#f4c99c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M191 413 C170 416 162 435 176 442 C194 449 218 441 221 429 C216 417 205 413 191 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M321 413 C342 416 350 435 336 442 C318 449 294 441 291 429 C296 417 307 413 321 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M175 429 Q193 421 211 429 M301 429 Q319 421 337 429" fill="none" stroke="#b78358" stroke-width="3" stroke-linecap="round"/></g>
+  <g data-layer="arms"><path d="M178 277 Q111 295 72 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M178 277 Q111 295 72 328" fill="none" stroke="#dc7976" stroke-width="8" stroke-linecap="round"/><path d="M334 277 Q401 295 440 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M334 277 Q401 295 440 328" fill="none" stroke="#dc7976" stroke-width="8" stroke-linecap="round"/></g>
+  <g data-layer="product"><path d="M192 91 Q230 112 267 93 Q302 75 329 99 C315 163 347 204 328 260 C309 316 338 350 316 398 Q278 376 243 394 Q207 413 177 389 C192 333 161 292 180 236 C199 181 170 139 192 91Z" fill="url(#bacon)" stroke="#762e3b" stroke-width="7" stroke-linejoin="round"/></g>
+  <g data-layer="product-details"><path d="M193 128 Q230 151 271 130 Q301 114 326 129 M184 213 Q222 236 267 214 Q301 197 332 215 M180 302 Q219 323 258 305 Q292 288 325 301 M181 369 Q215 385 244 371 Q278 354 316 371" fill="none" stroke="#ffd1b9" stroke-width="17" stroke-linecap="round"/>
+      <path d="M195 123 Q231 143 269 124 M185 208 Q225 228 267 208 M181 297 Q219 316 258 298" fill="none" stroke="#fff0d9" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+      <path d="M203 102 Q185 144 200 176" fill="none" stroke="#ffc8b7" stroke-width="8" stroke-linecap="round" opacity=".55"/></g>
+  <g data-feature="face">
+    <ellipse cx="212.68" cy="284.92" rx="18.48" ry="9.24" fill="#ed7d79" opacity=".27"/>
+    <ellipse cx="293.32" cy="284.92" rx="18.48" ry="9.24" fill="#ed7d79" opacity=".27"/>
+    <path d="M208.48 201.76 Q222.76 194.2 235.35999999999999 202.6 M270.64 202.6 Q283.24 194.2 297.52 201.76" fill="none" stroke="#493026" stroke-width="3.36" stroke-linecap="round"/>
+    <ellipse cx="222.76" cy="237.88" rx="20.16" ry="24.36" fill="#fffdf8" stroke="#493026" stroke-width="4.2"/>
+    <ellipse cx="283.24" cy="237.88" rx="20.16" ry="24.36" fill="#fffdf8" stroke="#493026" stroke-width="4.2"/>
+    <ellipse cx="226.12" cy="241.24" rx="9.24" ry="11.76" fill="#2b211e"/>
+    <ellipse cx="286.6" cy="241.24" rx="9.24" ry="11.76" fill="#2b211e"/>
+    <circle cx="229.48" cy="236.2" r="3.36" fill="white"/>
+    <circle cx="289.96000000000004" cy="236.2" r="3.36" fill="white"/>
+    <path d="M220.24 274 Q253 313.48 285.76 274 Q253 288.28 220.24 274Z" fill="#572d2a" stroke="#493026" stroke-width="3.36" stroke-linejoin="round"/>
+      <path d="M232 278.2 Q253 285.76 274 278.2 L269.8 286.6 Q253 290.8 236.2 286.6Z" fill="white"/>
+      <path d="M237.88 299.2 Q253 290.8 268.96 298.36 Q253 308.44 237.88 299.2Z" fill="#e77c7b"/>
+  </g>
+
+  <g data-layer="hands"><g data-hand="left" data-digit-count="5" transform="translate(61 302) rotate(-18) scale(0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g><g data-hand="right" data-digit-count="5" transform="translate(451 302) rotate(18) scale(-0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g></g>
+</svg>

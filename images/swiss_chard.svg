@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Swiss chard</title><desc id="desc">A cheerful, recognisable swiss chard cartoon character with two five-fingered hands.</desc>
+  <metadata>circuitcourt-product:swiss_chard; artwork-version:2; legacy-assets:untouched</metadata>
+  <defs><linearGradient id="chard" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79aa5b"/><stop offset=".5" stop-color="#397443"/><stop offset="1" stop-color="#1f4f35"/></linearGradient></defs>
+  <rect width="512" height="512" fill="#fff"/>
+  <ellipse cx="256" cy="455" rx="151" ry="17" fill="#29362d" opacity=".12"/>
+  <g data-layer="back"><path d="M203 396 Q163 235 142 128 M309 396 Q349 235 370 128" fill="none" stroke="#e5b93e" stroke-width="17" stroke-linecap="round"/>
+      <path d="M144 71 Q181 72 179 107 Q216 96 217 137 Q244 148 220 177 Q237 207 207 225 Q215 262 179 267 Q172 302 143 282 Q111 296 101 260 Q66 250 82 216 Q55 188 83 166 Q71 131 108 126 Q105 89 144 71Z" fill="#4e8549" stroke="#294e32" stroke-width="6"/>
+      <path d="M368 71 Q331 72 333 107 Q296 96 295 137 Q268 148 292 177 Q275 207 305 225 Q297 262 333 267 Q340 302 369 282 Q401 296 411 260 Q446 250 430 216 Q457 188 429 166 Q441 131 404 126 Q407 89 368 71Z" fill="#427a43" stroke="#294e32" stroke-width="6"/></g>
+  <g data-layer="legs">
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#f4c99c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M191 413 C170 416 162 435 176 442 C194 449 218 441 221 429 C216 417 205 413 191 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M321 413 C342 416 350 435 336 442 C318 449 294 441 291 429 C296 417 307 413 321 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M175 429 Q193 421 211 429 M301 429 Q319 421 337 429" fill="none" stroke="#b78358" stroke-width="3" stroke-linecap="round"/></g>
+  <g data-layer="arms"><path d="M153 277 Q111 295 72 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M153 277 Q111 295 72 328" fill="none" stroke="#6f9a54" stroke-width="8" stroke-linecap="round"/><path d="M359 277 Q401 295 440 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M359 277 Q401 295 440 328" fill="none" stroke="#6f9a54" stroke-width="8" stroke-linecap="round"/></g>
+  <g data-layer="product"><path d="M256 58 Q294 66 292 103 Q335 89 342 130 Q380 139 358 174 Q389 202 360 229 Q377 267 339 279 Q343 320 302 324 L282 399 L230 399 L210 324 Q169 320 173 279 Q135 267 152 229 Q123 202 154 174 Q132 139 170 130 Q177 89 220 103 Q218 66 256 58Z" fill="url(#chard)" stroke="#294e32" stroke-width="7" stroke-linejoin="round"/></g>
+  <g data-layer="product-details"><path d="M256 83 Q246 213 256 397" fill="none" stroke="#e06464" stroke-width="17" stroke-linecap="round"/>
+      <path d="M251 160 L199 124 M251 206 L181 177 M253 259 L185 246 M261 161 L313 124 M261 206 L331 177 M259 259 L327 246" fill="none" stroke="#dc6967" stroke-width="8" stroke-linecap="round"/>
+      <path d="M197 128 Q214 152 209 177 M315 128 Q298 152 303 177 M183 230 Q207 231 220 251 M329 230 Q305 231 292 251" fill="none" stroke="#9dc178" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+      <path d="M231 390 Q256 378 281 390 L278 408 L234 408Z" fill="#d94f59" stroke="#813d3f" stroke-width="4"/></g>
+  <g data-feature="face">
+    <ellipse cx="213.76" cy="273.44" rx="19.36" ry="9.68" fill="#ed7d79" opacity=".27"/>
+    <ellipse cx="298.24" cy="273.44" rx="19.36" ry="9.68" fill="#ed7d79" opacity=".27"/>
+    <path d="M209.35999999999999 186.32 Q224.32 178.4 237.51999999999998 187.2 M274.48 187.2 Q287.68 178.4 302.64 186.32" fill="none" stroke="#493026" stroke-width="3.52" stroke-linecap="round"/>
+    <ellipse cx="224.32" cy="224.16" rx="21.12" ry="25.52" fill="#fffdf8" stroke="#493026" stroke-width="4.4"/>
+    <ellipse cx="287.68" cy="224.16" rx="21.12" ry="25.52" fill="#fffdf8" stroke="#493026" stroke-width="4.4"/>
+    <ellipse cx="227.84" cy="227.68" rx="9.68" ry="12.32" fill="#2b211e"/>
+    <ellipse cx="291.2" cy="227.68" rx="9.68" ry="12.32" fill="#2b211e"/>
+    <circle cx="231.35999999999999" cy="222.4" r="3.52" fill="white"/>
+    <circle cx="294.72" cy="222.4" r="3.52" fill="white"/>
+    <path d="M226.07999999999998 262 Q256 290.16 285.92 262" fill="none" stroke="#493026" stroke-width="5.28" stroke-linecap="round"/>
+  </g>
+
+  <g data-layer="hands"><g data-hand="left" data-digit-count="5" transform="translate(61 302) rotate(-18) scale(0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g><g data-hand="right" data-digit-count="5" transform="translate(451 302) rotate(18) scale(-0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g></g>
+</svg>

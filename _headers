@@ -1,0 +1,28 @@
+# Cache policy for a header-capable static host (Cloudflare Pages, Netlify).
+# GitHub Pages ignores this file. The service worker in vite.config.js provides
+# the equivalent cache-first behaviour on GitHub Pages today.
+#
+# If the app is served from a custom domain at the root instead of /CircuitCourt/,
+# rewrite the path prefixes below to match that base.
+
+/CircuitCourt/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/CircuitCourt/images/*
+  Cache-Control: public, max-age=2592000
+
+/CircuitCourt/index.html
+  Cache-Control: no-cache
+
+/CircuitCourt/404.html
+  Cache-Control: no-cache
+
+/CircuitCourt/sw.js
+  Cache-Control: no-cache
+
+/CircuitCourt/manifest.webmanifest
+  Cache-Control: public, max-age=3600
+
+/CircuitCourt/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

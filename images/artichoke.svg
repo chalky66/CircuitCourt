@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Artichoke</title><desc id="desc">A cheerful, recognisable artichoke cartoon character with two five-fingered hands.</desc>
+  <metadata>circuitcourt-product:artichoke; artwork-version:2; legacy-assets:untouched</metadata>
+  <defs><radialGradient id="art" cx="32%" cy="20%" r="86%"><stop stop-color="#b5d28a"/><stop offset=".55" stop-color="#749d55"/><stop offset="1" stop-color="#426c3b"/></radialGradient></defs>
+  <rect width="512" height="512" fill="#fff"/>
+  <ellipse cx="256" cy="455" rx="151" ry="17" fill="#29362d" opacity=".12"/>
+  <g data-layer="back"></g>
+  <g data-layer="legs">
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#f4c99c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M191 413 C170 416 162 435 176 442 C194 449 218 441 221 429 C216 417 205 413 191 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M321 413 C342 416 350 435 336 442 C318 449 294 441 291 429 C296 417 307 413 321 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M175 429 Q193 421 211 429 M301 429 Q319 421 337 429" fill="none" stroke="#b78358" stroke-width="3" stroke-linecap="round"/></g>
+  <g data-layer="arms"><path d="M153 277 Q111 295 72 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M153 277 Q111 295 72 328" fill="none" stroke="#85a862" stroke-width="8" stroke-linecap="round"/><path d="M359 277 Q401 295 440 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M359 277 Q401 295 440 328" fill="none" stroke="#85a862" stroke-width="8" stroke-linecap="round"/></g>
+  <g data-layer="product"><path d="M256 91 C337 102 383 170 379 259 C375 345 326 391 256 391 C186 391 137 345 133 259 C129 170 175 102 256 91Z" fill="url(#art)" stroke="#355b36" stroke-width="7"/>
+      <g fill="#8fb86b" stroke="#426d3c" stroke-width="4" stroke-linejoin="round">
+        <path d="M256 89 Q219 127 231 172 Q256 162 256 124 Q256 162 281 172 Q293 127 256 89Z"/>
+        <path d="M191 125 Q154 163 168 215 Q201 197 214 156Z"/><path d="M321 125 Q358 163 344 215 Q311 197 298 156Z"/>
+        <path d="M145 207 Q137 259 161 290 Q192 262 190 219Z"/><path d="M367 207 Q375 259 351 290 Q320 262 322 219Z"/>
+        <path d="M157 293 Q169 346 209 365 Q222 325 195 293Z"/><path d="M355 293 Q343 346 303 365 Q290 325 317 293Z"/>
+      </g>
+      <path d="M222 170 Q194 211 209 253 Q237 239 256 198 Q275 239 303 253 Q318 211 290 170 Q256 192 222 170Z" fill="#a5c77a" stroke="#4b743f" stroke-width="4"/>
+      <path d="M184 256 Q177 302 208 327 Q238 298 229 259Z M328 256 Q335 302 304 327 Q274 298 283 259Z" fill="#789f59" stroke="#426d3c" stroke-width="4"/></g>
+  <g data-layer="product-details"><path d="M237 103 Q244 72 256 58 Q268 72 275 103" fill="#9474a0" stroke="#5b4768" stroke-width="4"/>
+      <path d="M256 367 L256 403" stroke="#426d3c" stroke-width="18" stroke-linecap="round"/>
+      <path d="M174 183 Q157 220 164 242 M220 130 Q201 149 195 172" fill="none" stroke="#d6e7b4" stroke-width="6" stroke-linecap="round" opacity=".55"/></g>
+  <g data-feature="face">
+    <ellipse cx="211.84" cy="306.96" rx="20.240000000000002" ry="10.120000000000001" fill="#ed7d79" opacity=".27"/>
+    <ellipse cx="300.16" cy="306.96" rx="20.240000000000002" ry="10.120000000000001" fill="#ed7d79" opacity=".27"/>
+    <path d="M207.24 215.88 Q222.88 207.6 236.68 216.8 M275.32 216.8 Q289.12 207.6 304.76 215.88" fill="none" stroke="#493026" stroke-width="3.68" stroke-linecap="round"/>
+    <ellipse cx="222.88" cy="255.44" rx="22.080000000000002" ry="26.68" fill="#fffdf8" stroke="#493026" stroke-width="4.6000000000000005"/>
+    <ellipse cx="289.12" cy="255.44" rx="22.080000000000002" ry="26.68" fill="#fffdf8" stroke="#493026" stroke-width="4.6000000000000005"/>
+    <ellipse cx="226.56" cy="259.12" rx="10.120000000000001" ry="12.88" fill="#2b211e"/>
+    <ellipse cx="292.8" cy="259.12" rx="10.120000000000001" ry="12.88" fill="#2b211e"/>
+    <circle cx="230.24" cy="253.6" r="3.68" fill="white"/>
+    <circle cx="296.48" cy="253.6" r="3.68" fill="white"/>
+    <path d="M224.72 295 Q256 324.44 287.28 295" fill="none" stroke="#493026" stroke-width="5.5200000000000005" stroke-linecap="round"/>
+  </g>
+
+  <g data-layer="hands"><g data-hand="left" data-digit-count="5" transform="translate(61 302) rotate(-18) scale(0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g><g data-hand="right" data-digit-count="5" transform="translate(451 302) rotate(18) scale(-0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g></g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Dried white beans</title><desc id="desc">A cheerful, recognisable dried white beans cartoon character with two five-fingered hands.</desc>
+  <metadata>circuitcourt-product:dried_white_beans; artwork-version:2; legacy-assets:untouched</metadata>
+  <defs><linearGradient id="sack" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ead6aa"/><stop offset=".55" stop-color="#c5a271"/><stop offset="1" stop-color="#947147"/></linearGradient></defs>
+  <rect width="512" height="512" fill="#fff"/>
+  <ellipse cx="256" cy="455" rx="151" ry="17" fill="#29362d" opacity=".12"/>
+  <g data-layer="back"><g fill="#f6efd7" stroke="#9b8961" stroke-width="4"><path d="M143 377 Q119 354 96 374 Q85 393 109 403 Q135 411 143 389 Q145 384 143 377Z"/><path d="M365 374 Q391 351 412 375 Q421 397 396 404 Q369 409 363 387Z"/><path d="M172 405 Q151 389 137 407 Q135 425 158 428 Q181 427 181 413Z"/><path d="M337 407 Q358 389 375 406 Q380 423 357 429 Q335 429 331 416Z"/></g>
+      <g fill="none" stroke="#c0ad7d" stroke-width="3"><path d="M103 383 Q120 379 126 394"/><path d="M405 383 Q387 378 382 394"/><path d="M146 414 Q160 405 169 419"/><path d="M365 413 Q351 405 343 420"/></g></g>
+  <g data-layer="legs">
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M213 350 Q208 391 193 425 M299 350 Q304 391 319 425" fill="none" stroke="#f4c99c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M191 413 C170 416 162 435 176 442 C194 449 218 441 221 429 C216 417 205 413 191 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M321 413 C342 416 350 435 336 442 C318 449 294 441 291 429 C296 417 307 413 321 413Z" fill="#70452d" stroke="#493026" stroke-width="4"/>
+    <path d="M175 429 Q193 421 211 429 M301 429 Q319 421 337 429" fill="none" stroke="#b78358" stroke-width="3" stroke-linecap="round"/></g>
+  <g data-layer="arms"><path d="M153 277 Q111 295 72 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M153 277 Q111 295 72 328" fill="none" stroke="#f4c99c" stroke-width="8" stroke-linecap="round"/><path d="M359 277 Q401 295 440 328" fill="none" stroke="#493026" stroke-width="15" stroke-linecap="round"/>
+    <path d="M359 277 Q401 295 440 328" fill="none" stroke="#f4c99c" stroke-width="8" stroke-linecap="round"/></g>
+  <g data-layer="product"><path d="M163 176 Q256 143 349 176 L335 219 Q367 283 355 367 Q320 403 256 403 Q192 403 157 367 Q145 283 177 219Z" fill="url(#sack)" stroke="#765838" stroke-width="7"/>
+      <path d="M163 176 Q256 205 349 176 L335 219 Q256 248 177 219Z" fill="#7d6548" stroke="#765838" stroke-width="6"/>
+      <ellipse cx="256" cy="179" rx="91" ry="31" fill="#ede2c2" stroke="#806847" stroke-width="5"/></g>
+  <g data-layer="product-details"><g fill="#fff9e7" stroke="#a39169" stroke-width="3"><path d="M184 179 Q171 159 190 151 Q212 146 220 164 Q221 184 201 188 Q192 189 184 179Z"/><path d="M221 169 Q218 145 241 145 Q264 150 256 170 Q244 188 227 180Z"/><path d="M265 163 Q274 141 295 151 Q313 165 298 181 Q278 191 265 176Z"/><path d="M305 181 Q309 158 330 163 Q348 176 333 190 Q315 200 305 181Z"/><path d="M236 190 Q251 173 270 184 Q281 201 262 207 Q242 211 236 190Z"/></g>
+      <g fill="none" stroke="#c1ae81" stroke-width="2.5"><path d="M188 166 Q205 161 207 177"/><path d="M233 155 Q248 158 245 173"/><path d="M286 157 Q294 169 282 178"/><path d="M326 172 Q322 185 311 184"/></g>
+      <path d="M169 236 Q256 265 343 236" fill="none" stroke="#f0dfb8" stroke-width="6" opacity=".65"/>
+      <path d="M177 247 Q157 316 177 359 M335 247 Q355 316 335 359" fill="none" stroke="#8f6d45" stroke-width="4" opacity=".48"/>
+      <path d="M168 230 Q256 258 344 230" fill="none" stroke="#9b7145" stroke-width="9" stroke-dasharray="5 8" stroke-linecap="round"/>
+      <path d="M192 270 L183 347 M320 270 L329 347" fill="none" stroke="#f4e2ba" stroke-width="3" stroke-dasharray="4 6" opacity=".6"/></g>
+  <g data-feature="face">
+    <ellipse cx="212.32" cy="346.58" rx="20.02" ry="10.01" fill="#ed7d79" opacity=".27"/>
+    <ellipse cx="299.68" cy="346.58" rx="20.02" ry="10.01" fill="#ed7d79" opacity=".27"/>
+    <path d="M207.77 256.49 Q223.24 248.3 236.89000000000001 257.4 M275.11 257.4 Q288.76 248.3 304.23 256.49" fill="none" stroke="#493026" stroke-width="3.64" stroke-linecap="round"/>
+    <ellipse cx="223.24" cy="295.62" rx="21.84" ry="26.39" fill="#fffdf8" stroke="#493026" stroke-width="4.55"/>
+    <ellipse cx="288.76" cy="295.62" rx="21.84" ry="26.39" fill="#fffdf8" stroke="#493026" stroke-width="4.55"/>
+    <ellipse cx="226.88" cy="299.26" rx="10.01" ry="12.74" fill="#2b211e"/>
+    <ellipse cx="292.4" cy="299.26" rx="10.01" ry="12.74" fill="#2b211e"/>
+    <circle cx="230.52" cy="293.8" r="3.64" fill="white"/>
+    <circle cx="296.03999999999996" cy="293.8" r="3.64" fill="white"/>
+    <path d="M225.06 334.75 Q256 363.87 286.94 334.75" fill="none" stroke="#493026" stroke-width="5.46" stroke-linecap="round"/>
+  </g>
+
+  <g data-layer="hands"><g data-hand="left" data-digit-count="5" transform="translate(61 302) rotate(-18) scale(0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g><g data-hand="right" data-digit-count="5" transform="translate(451 302) rotate(18) scale(-0.9 .9)">
+    <path d="M-17 22 C-29 19 -35 11 -37 1 L-45 -13 C-49 -22 -39 -29 -32 -20 L-19 -4 L-25 -38 C-27 -49 -14 -53 -10 -41 L-5 -16 L-5 -52 C-5 -64 10 -64 11 -52 L12 -16 L19 -47 C22 -58 35 -54 32 -42 L26 -12 L38 -34 C44 -44 55 -36 49 -25 L37 4 C32 22 18 33 1 34Z"
+      fill="#f4c99c" stroke="#493026" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 11 Q0 1 17 9 M-18 -3 Q-12 2 -10 8 M-3 22 Q9 25 19 18" fill="none" stroke="#ba825c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-17 -31 L-13 -15 M2 -43 L3 -23 M24 -37 L20 -20 M41 -25 L34 -11" fill="none" stroke="#fff1d9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  </g></g>
+</svg>

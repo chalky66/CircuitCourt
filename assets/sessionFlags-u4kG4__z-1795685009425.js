@@ -1,0 +1,1 @@
+function s(e){if(!e||e.isAnonymous)return!1;try{return localStorage.setItem("circuitcourt_auth_state",JSON.stringify({uid:e.uid,email:e.email,isAnonymous:!1,timestamp:Date.now(),sessionActive:!0})),localStorage.setItem("circuitcourt_session_active","true"),!0}catch(t){return console.warn("[SessionFlags] Could not persist the signed-in session:",t),!1}}export{s as r};
